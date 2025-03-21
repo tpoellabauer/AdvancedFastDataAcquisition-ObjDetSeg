@@ -6,7 +6,7 @@ Additional materials for our ISCV24 paper "Advanced Post-Processing for Object D
 Here are additional resources to reproduce our results. Most importantly, we provide our configuration files for LoRA training and our LoRAs, trained to reproduce the YCB-V household objects with Stable Diffusion 1.5. In case you want to train your own LoRAs, we provide our configuration files as used with https://github.com/bmaltais/kohya_ss. 
 
 ## Usage
-1. Get the luminance key version of YCB-V (YCB-V Luma) at https://huggingface.co/datasets/tpoellabauer/YCB-V-LUMA/tree/main. You can use code from https://github.com/tpoellabauer/FastDataAcquisition-ObjDetSeg to extract images and masks from the recordings. 
+1. Get the luminance key version of YCB-V (YCB-V Luma) at https://huggingface.co/datasets/tpoellabauer/YCB-V-LUMA/tree/main.  
 2. Setup https://github.com/AUTOMATIC1111/stable-diffusion-webui.
 3. Put the provided LoRAs to your installation folder.
 4. Run webui with your favourite SD1.5 model. 
